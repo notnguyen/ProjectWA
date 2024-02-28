@@ -64,6 +64,7 @@
 .navbar-nav button {
   margin-right: 20px;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .line-yellow {
@@ -73,6 +74,12 @@
   text-align:right;
   margin-right:0;
   width: 90%;
+}
+
+.navbar-nav button:hover {
+  transition-duration: 0.4s;
+  background-color: #008CBA;
+  color: white;
 }
 
 .Footer {
