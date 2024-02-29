@@ -34,6 +34,33 @@
   position: relative;
 }
 
+.burger-image-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.burger-image {
+  width: 100%;
+  height: auto;
+}
+
+.squares-image-container {
+  max-width: 100 px;
+  margin: 0 auto;
+}
+
+.squares-image {
+  width: 100%;
+  height: auto;
+}
+
+.icon-bar {
+  background-color: #C40000;
+}
+
+
+
 .navbar-nav li::after {
   content: '';
   position: absolute;
@@ -71,10 +98,16 @@
   height:5px;
   border-width:0;
   background-color:#FFC580;
-  text-align:right;
-  margin-right:0;
-  width: 90%;
+  width: 100%;
 }
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 
 .navbar-nav button:hover {
   transition-duration: 0.4s;
@@ -83,11 +116,12 @@
 }
 
 .Footer {
-  max-width: 1360px;
+  max-width: 90%;
   height: 90px;
   position: relative;
   margin: 0 auto;
 }
+
 
 .Rectangle34 {
   width: 100%;
