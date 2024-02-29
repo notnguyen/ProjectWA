@@ -153,11 +153,12 @@
 .OrderItem .itemName{
   margin-bottom: 20px;
   align-self: center;
-  
 }
-
 .OrderItem .itemName{
   text-align: center;
+}
+.OrderItem .itmePrice{
+  text-align: end;
 }
 @media (max-width: 768px) {
   .navbar-nav {
