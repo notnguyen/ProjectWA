@@ -122,6 +122,21 @@
   margin-left: -160px;
   margin-top: 151px;
 }
+.OrderItem{
+  margin-bottom: 50px;
+}
+.OrderItem .orderLabels{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: end;
+  padding: 20px;
+  margin-top: -173px;
+  height: 175px;
+  width: 400px;
+  font-size:25px;
+}
 
 @media (max-width: 768px) {
   .navbar-nav {
