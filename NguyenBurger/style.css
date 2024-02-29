@@ -112,7 +112,16 @@
   text-transform: uppercase;
   font-weight: bold;
 }
-
+.MainDiv{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-evenly;
+}
+.rightItem{
+  margin-left: -160px;
+  margin-top: 151px;
+}
 
 @media (max-width: 768px) {
   .navbar-nav {
