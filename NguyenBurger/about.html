@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>ABOUT</h1>
-</body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Chango"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bowlby One"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Bungee"
+      rel="stylesheet"
+    />
+    <body style="background-color: #e9e3dc"></body>
+  </head>
+  <body style="height: 1500px">
+    <nav class="navbar bg-burger">
+      <!-- navbar-fixed-top navbar-inverse -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand font-chango text-red" href="index.html">
+            <span class="border border-warning rounded border-5">
+              <img
+                src="LogoBurger.png"
+                width="70"
+                height="70"
+                class="d-inline-block align-top"
+                alt="LogoBurger"
+              />
+              NGUYEN'S BURGER
+            </span>
+            <!-- <img src="LogoBurger.png" width="60" height="60" class="d-inline-block align-top" alt="LogoBurger"> -->
+          </a>
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right font-bowlbyOne">
+            <li><a href="contact.html" class="text-purple">CONTACT</a></li>
+            <li><a href="about.html" class="text-purple">ABOUT</a></li>
+            <li><a href="menu.html" class="text-purple">MENU</a></li>
+            <button
+              class="btn btn-purple navbar-btn"
+              onclick="alert('Thank you for your order!')"
+            >
+              ORDER NOW
+            </button>
+            <!-- onclick="window.location.href='index.html'" -->
+          </ul>
+        </div>
+        <hr class="line-yellow" />
+      </div>
+    </nav>
+
+    <h1 class="font-bowlbyOne text-purple text-center">ABOUT</h1>
+    <br>
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="row py-5">
+        <div class="col-md-6 text-center">
+          <img src="About.png" class="about-image" alt="About" />
+        </div>
+        <div class="col-md-6 text-left py-5">
+          <h1 class="font-bowlbyOne text-yellow">
+            “ THE BEST BURGER I’VE EVER HAD “
+          </h1>
+          <br />
+          <p class="font-bowlbyOne">
+            AT OUR BURGER JOINT, FRESHNESS IS OUR SECRET INGREDIENT. WE'RE
+            COMMITTED TO SERVING UP THE MOST DELICIOUS BURGERS MADE ONLY FROM
+            THE FRESHEST, LOCALLY SOURCED PRODUCE. EACH BITE IS A FLAVORFUL
+            JOURNEY YOU WON'T FORGET.
+          </p>
+          <br />
+          <p class="font-bowlbyOne">JOIN US AND TASTE THAT FRESHNESS BRINGS.</p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <div class="Footer">
+      <div class="Rectangle34"></div>
+      <div class="Am10pm">9AM - 10PM</div>
+      <div class="OpeningHours">Opening Hours</div>
+      <div class="NguyenSBurger">Nguyen´s burger</div>
+    </div>
+  </body>
 </html>
