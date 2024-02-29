@@ -150,7 +150,15 @@
   width: 100%;
   text-decoration: none;
 }
+.OrderItem .itemName{
+  margin-bottom: 20px;
+  align-self: center;
+  
+}
 
+.OrderItem .itemName{
+  text-align: center;
+}
 @media (max-width: 768px) {
   .navbar-nav {
     width: 100%;
