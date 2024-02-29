@@ -137,6 +137,9 @@
   width: 400px;
   font-size:25px;
 }
+.OrderItem .orderRightItem{
+  margin-top: -315px;
+}
 
 @media (max-width: 768px) {
   .navbar-nav {
